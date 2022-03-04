@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from 'react'
 import Prism from 'prismjs'
-import 'prism-themes/themes/prism-dracula.css'
+import 'prism-themes/themes/prism-a11y-dark.css'
 interface Code {
   code: string
   langlage: string
