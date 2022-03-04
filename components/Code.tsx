@@ -11,7 +11,7 @@ const Code: FC<Code> = ({ code, langlage }) => {
     Prism.highlightAll()
   }, [])
   return (
-    <pre className={`language-${langlage} max-h-[540px]  scrollbar-hide`}>
+    <pre className={`language-${langlage} max-h-[540px] scrollbar-hide`}>
       <code className="language-js code-highlight text-sm">{code}</code>
     </pre>
   )

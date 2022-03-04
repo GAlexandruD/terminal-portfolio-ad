@@ -24,7 +24,7 @@ function Header() {
             activ === 'hello'
               ? 'border-t border-b border-t-rose-700 border-b-[#0d1117] bg-[#0d1117] text-amber-500 '
               : 'border-t border-b text-slate-500 shadow-md shadow-slate-900'
-          }  px-10 py-2 `}
+          }  py-2 px-8 md:px-10`}
           onClick={() => setActiv('hello')}
         >
           _hello
@@ -35,7 +35,7 @@ function Header() {
             activ === 'about'
               ? 'border-t border-b border-t-rose-700 border-b-[#0d1117] bg-[#0d1117] text-amber-500'
               : 'border-t border-b text-slate-500 shadow-md shadow-slate-900'
-          }  px-10 py-2 `}
+          }  px-8 py-2 md:px-10`}
           onClick={() => setActiv('about')}
         >
           _about_me
@@ -46,7 +46,7 @@ function Header() {
             activ === 'projects'
               ? 'border-t border-b border-t-rose-700 border-b-[#0d1117] bg-[#0d1117] text-amber-500'
               : 'border-t border-b text-slate-500 shadow-md shadow-slate-900'
-          }  px-10 py-2 `}
+          }  px-9 py-2 md:px-10`}
           onClick={() => setActiv('projects')}
         >
           _snippets
@@ -54,9 +54,13 @@ function Header() {
         <a className="w-full border-b border-t border-l border-slate-900 px-10 py-2 text-slate-500 shadow-md shadow-slate-900"></a>
       </div>
 
-      {activ === 'hello' ? <Banner /> : ''}
-      {activ === 'about' ? <AboutMe /> : ''}
-      {activ === 'projects' ? <Projects /> : ''}
+      {activ === 'hello' ? (
+        <Banner />
+      ) : activ === 'about' ? (
+        <AboutMe />
+      ) : (
+        <Projects />
+      )}
 
       <Footer />
     </div>

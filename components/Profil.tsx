@@ -8,7 +8,7 @@ function Profil() {
     <div className="order-last mt-20 grid grid-cols-3 text-center text-slate-600 md:order-first md:mt-0">
       <div>
         <p className="text-xl font-bold ">71.5M</p>
-        <p className="text-gray-500">Friends</p>
+        <p className="text-gray-500">Followers</p>
       </div>
       <div>
         <p className="text-xl font-bold ">248</p>
@@ -37,12 +37,12 @@ function Profil() {
   </div>
   <div className="mt-20 border-b border-slate-900 pb-12 text-center">
     <h1 className="text-4xl font-medium text-sky-600">
-      Khaby lame, <span className="font-light">22</span>
+      Khaby Lame, <span className="font-light">22</span>
     </h1>
     <p className="mt-3 font-light text-gray-600">Chivasso, Italy</p>
 
     <p className="mt-8 text-gray-500">Digital creator</p>
-    <p className="mt-2 text-gray-500">University of Computer Science</p>
+    <p className="mt-2 text-gray-500">Local Private University, Chivasso</p>
   </div>
 
   <div className="mt-12 flex flex-col justify-center">
@@ -66,7 +66,7 @@ function Profil() {
     <div>
       <div className="flex border-b border-slate-900 px-2 text-sm tracking-tight">
         <button
-          className="cursor-pointer rounded-md px-4 py-1  text-sky-700"
+          className="cursor-pointer rounded-md px-4 py-1 text-sky-700"
           onClick={() => setSee('demo')}
         >
           <svg
@@ -110,7 +110,7 @@ function Profil() {
             <div className="order-last mt-20 grid grid-cols-3 text-center text-slate-600 md:order-first md:mt-0">
               <div>
                 <p className="text-xl font-bold">71.5M</p>
-                <p className="text-gray-500">Friends</p>
+                <p className="text-gray-500">Followers</p>
               </div>
               <div>
                 <p className="text-xl font-bold ">248</p>
@@ -139,12 +139,14 @@ function Profil() {
           </div>
           <div className="mt-20 border-b border-slate-900 pb-12 text-center">
             <h1 className="text-4xl font-medium text-sky-700">
-              Khaby lame, <span className="font-light">22</span>
+              Khaby Lame, <span className="font-light">22</span>
             </h1>
             <p className="mt-3 font-light text-gray-600">Chivasso, Italy</p>
 
             <p className="mt-8 text-gray-500">Digital creator</p>
-            <p className="mt-2 text-gray-500">University of Computer Science</p>
+            <p className="mt-2 text-gray-500">
+              Local Private University, Chivasso
+            </p>
           </div>
 
           <div className="mt-12 flex flex-col justify-center">
