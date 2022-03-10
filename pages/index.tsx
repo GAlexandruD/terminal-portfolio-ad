@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex h-screen items-center justify-center bg-[#010409]">
       <Head>
-        <title>Create Next App</title>
+        <title>AD Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -148,7 +148,7 @@ function Profile() {
           </button>
         </div>
       ) : (
-        <Code code={code} langlage={'javascript'} />
+        <Code code={code} language={'javascript'} />
       )}
     </div>
   )

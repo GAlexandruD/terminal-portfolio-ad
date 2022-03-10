@@ -1,6 +1,6 @@
 import React from 'react'
 import Profil from './Profil'
-import Login from './Jogin'
+import Login from './Login'
 import JobCard from './JobCard'
 import Tasks from './Tasks'
 import TaskCard from './TaskCard'

@@ -15,7 +15,7 @@ function Header() {
           <MdCircle className="cursor-pointer text-yellow-600" />
           <MdCircle className="cursor-pointer text-green-600" />
         </p>
-        <p>aleks_georgiev</p>
+        <p>alexandru_dragos</p>
         <p className="w-8"></p>
       </div>
       <div className="flex bg-[#010409] text-sm">

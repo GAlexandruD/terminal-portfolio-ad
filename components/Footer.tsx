@@ -23,7 +23,7 @@ function Footer() {
           </a>
         </Link>
       </div>
-      <a>{new Date().toDateString()}</a>
+      <span>{new Date().toDateString()}</span>
     </div>
   )
 }

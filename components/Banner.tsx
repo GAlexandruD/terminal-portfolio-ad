@@ -9,10 +9,8 @@ function Banner() {
         <div className="mt-2 items-center">
           <div className="space-y-2 text-white/80">
             <p>Hello! I&apos;am</p>
-            <h1 className="text-5xl">Aleks Georgiev</h1>
-            <h2 className="text-2xl text-sky-700">
-              Junior JavaScript Developer
-            </h2>
+            <h1 className="text-5xl">Alexandru Dragos</h1>
+            <h2 className="text-2xl text-sky-700">React Developer</h2>
             <Hello />
           </div>
         </div>
