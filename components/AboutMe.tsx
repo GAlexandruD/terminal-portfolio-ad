@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import {
   SiJavascript,
   SiReact,
@@ -8,6 +7,7 @@ import {
   SiFirebase,
   SiNodedotjs,
   SiTypescript,
+  SiPostgresql,
 } from 'react-icons/si'
 
 function AboutMe() {
@@ -16,7 +16,7 @@ function AboutMe() {
       {/* Left */}
       <div className="flex space-x-6">
         <div className="border-r border-gray-700/50  pr-4">
-          <text className="text-white/70">
+          <span className="text-white/70">
             <span className="text-white/10">38</span> <br />
             <span className="text-white/25">39</span> <br />
             <span className="text-white/50">40</span> <br />
@@ -32,52 +32,63 @@ function AboutMe() {
             <span className="md:text-white/25"> 51 </span> <br />
             <span className="md:text-white/10"> 52 </span>
             <br />
-          </text>
+          </span>
         </div>
         <div className="my-auto pl-2">
           <span className="text-white/50">/**</span>
           <div className="h-74 border-l border-gray-700/50 pl-4">
-            <text className="text-center text-white/50">
+            <span className="text-center text-white/50">
               {' '}
               <span className="">
                 * Education: <br />
               </span>
-              * 2020 - 2021 <span className="text-[#ffa000]">SoftUni </span>
+              * 2022{' '}
+              <span className="text-amber-500">Zero to Full Stack Hero </span>
               <br />
               <span className="text-sm text-sky-700 md:pl-8">
-                Java Fundamentals
+                <a href="https://www.papareact.com" target="_blank">
+                  React Community / www.papareact.com
+                </a>
               </span>
               <br />* 2021 <span className="text-[#a435f0]">Udemy</span>
               <br />
-              <Link href="https://www.udemy.com/course/the-complete-javascript-course/">
+              <a
+                href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/"
+                target="_blank"
+              >
                 <span className="text-sm text-sky-700 md:pl-8">
-                  The Complete JavaScript Course: From Zero to Expert!
+                  The Complete Web Developer in 2021: Zero to Mastery
                 </span>
-              </Link>
+              </a>
               <br />{' '}
-              <Link href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+              <a
+                href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/"
+                target="_blank"
+              >
                 <span className="text-sm text-sky-700  md:pl-8">
-                  React - The Complete Guide (incl Hooks, React Router, Redux)
+                  Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)
                 </span>
-              </Link>
-              <br />* 2021{' '}
-              <span className="text-amber-600">Zero to Full Stack Hero</span>
+              </a>
+              <br />* 2020 <span className="text-[#a435f0]">Udemy</span>
               <br />
-              <Link href="https://www.papareact.com/">
-                <span className="text-left text-sm text-sky-700 md:pl-8">
-                  www.papareact.com
+              <a
+                href="https://www.udemy.com/course/the-complete-sql-bootcamp"
+                target="_blank"
+              >
+                <span className="cursor-pointer text-sm text-sky-700 md:pl-8">
+                  The Complete SQL Bootcamp 2020: Go from Zero to Hero{' '}
                 </span>
-              </Link>
+              </a>
               <br />
               */ <br />
-            </text>
+            </span>
           </div>
         </div>
       </div>
       {/* Right */}
       <div className="flex space-x-6">
         <div className="border-r border-gray-700/50  pr-4">
-          <text className="text-white/70">
+          <span className="text-white/70">
             <span className="md:text-white/10">53</span> <br />
             <span className="md:text-white/25">54</span> <br />
             <span className="md:text-white/50">55</span> <br />
@@ -92,12 +103,12 @@ function AboutMe() {
             <br />
             <span className="text-white/5"> 64 </span>
             <br />
-          </text>
+          </span>
         </div>
         <div className="my-auto pl-2">
           <span className="text-white/50">/**</span>
           <div className="h-74 border-l border-gray-700/50 pl-4">
-            <text className="text-center text-white/50">
+            <span className="text-center text-white/50">
               {' '}
               <span className="">
                 * Skils: <br />
@@ -108,12 +119,12 @@ function AboutMe() {
               </span>
               <span className="flex items-center space-x-2">
                 <SiTypescript className="text-sky-400" />{' '}
-                <p className="flex px-2 text-white/80">
+                <span className="flex px-2 text-white/80">
                   TypeScript{' '}
                   <p className="animate-pulse pl-1 text-xs text-red-500">
                     loading...
                   </p>{' '}
-                </p>
+                </span>
               </span>
               <span className="flex items-center space-x-2">
                 <SiReact className="text-sky-600" />{' '}
@@ -135,8 +146,12 @@ function AboutMe() {
                 <SiNodedotjs className="text-green-500" />{' '}
                 <p className="px-2 text-white/80">NodeJS</p>
               </span>
+              <span className="flex items-center space-x-2">
+                <SiPostgresql className="text-sky-500" />{' '}
+                <p className="px-2 text-white/80">PostgreSQL</p>
+              </span>
               */
-            </text>
+            </span>
           </div>
         </div>
       </div>

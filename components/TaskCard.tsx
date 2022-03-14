@@ -118,7 +118,7 @@ function Tasks() {
       </div>
       {see === 'demo' ? (
         <div className="m-auto mt-4 max-w-sm rounded-xl p-4 shadow-lg shadow-slate-900">
-          <a href="#" className="block h-full w-full">
+          <span className="block h-full w-full">
             <div className="w-full">
               <p className="mb-2 text-xl font-medium text-white/70">
                 Improve css design of the carousel
@@ -186,7 +186,7 @@ function Tasks() {
                 <span className="ml-2 text-sm text-white/70">+ 900 more</span>
               </div>
             </div>
-          </a>
+          </span>
         </div>
       ) : (
         <Code code={code} language={'javascript'} />

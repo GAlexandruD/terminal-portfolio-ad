@@ -49,7 +49,7 @@ function Header() {
           }  px-9 py-2 md:px-10`}
           onClick={() => setActiv('projects')}
         >
-          _snippets
+          _projects
         </button>
         <a className="w-full border-b border-t border-l border-slate-900 px-10 py-2 text-slate-500 shadow-md shadow-slate-900"></a>
       </div>

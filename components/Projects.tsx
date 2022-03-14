@@ -1,9 +1,11 @@
 import React from 'react'
-import Profil from './Profil'
+import Profile from './Profile'
 import Login from './Login'
 import JobCard from './JobCard'
 import Tasks from './Tasks'
 import TaskCard from './TaskCard'
+import Project from './Project'
+import Banner from './Banner'
 
 function Projects() {
   return (
@@ -11,7 +13,7 @@ function Projects() {
       {/* Left */}
       <div className=" ">
         <div className="border-r border-gray-700/50 pr-2">
-          <text className="text-white/70">
+          <span className="text-white/70">
             <a className="text-white/10">65</a> <br />
             <a className="text-white/25">66</a> <br />
             <a className="text-white/50">67</a> <br />
@@ -191,17 +193,19 @@ function Projects() {
             <a className="text-white/25"> 02 </a> <br />
             <a className="text-white/10"> 03 </a>
             <br />
-          </text>
+          </span>
         </div>
       </div>
       {/* Right */}
 
       <div className="my-auto w-[90%] space-y-4 md:w-[97%]">
-        <Profil />
+        <Project />
+
+        {/* <Profile />
         <Login />
         <JobCard />
         <Tasks />
-        <TaskCard />
+        <TaskCard /> */}
       </div>
     </div>
   )

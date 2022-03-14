@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 function ProjectBox() {
   return (
     <div className="w-96 rounded-xl border border-slate-800 p-4 shadow-xl shadow-pink-700/40 lg:w-[450px]">
@@ -7,7 +7,7 @@ function ProjectBox() {
         <div className="flex w-full flex-grow items-center justify-between pb-2">
           <span className="text-amber-500">
             {' '}
-            Project: <a className="text-slate-500">Dealers</a>
+            Newest Project: <a className="text-slate-500">AirBnb clone</a>
           </span>
           <span className="text-sm text-slate-500"> 36 commits</span>
         </div>
@@ -17,23 +17,24 @@ function ProjectBox() {
           <div className=" pl-2">
             <a>/**</a>
             <div className="border-l border-gray-700/50 pl-4">
-              <text className="text-center">
+              <span className="text-center">
                 {' '}
-                * Server Side Rendering
-                <br />* Next Authentication
+                * Next.js
+                <br />* Server Side Rendering
                 <br />* React Hooks
-                <br />* Firebase Database
-                <br />* HeadlesUI components
+                <br />* Custom map from Mapbox.com
+                <br />* Tailwind CSS for styling
+                <br />* Hosted online
                 <br />
-              </text>
+              </span>
             </div>
             <a>*/</a>
           </div>
         </div>
         <button className="mb-4 w-full bg-amber-600/90 text-left text-[#010409]">
-          <Link href="https://dealers-aleksrg.vercel.app/">
-            <a className="px-4 text-sm font-semibold">see the project</a>
-          </Link>
+          <a href="https://airbnb-clone-green-six.vercel.app/" target="_blank">
+            <span className="px-4 text-sm font-semibold">see the project</span>
+          </a>
         </button>
       </div>
     </div>
