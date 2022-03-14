@@ -1,5 +1,5 @@
 import React from 'react'
-import { WindupChildren } from 'windups'
+import { WindupChildren, Pace } from 'windups'
 
 function Hello() {
   return (
@@ -7,16 +7,24 @@ function Hello() {
       <WindupChildren>
         <span className="text-xl text-slate-600">
           <span className="text-2xl">{'>'}</span>{' '}
-          <span className="text-sky-700">{' Location:'}</span>
-          {'Bucharest, Romania'}
+          <span className="text-sky-700">
+            <Pace ms={40}>{' Location:'}</Pace>
+          </span>
+          <Pace ms={40}>{'Bucharest, Romania'}</Pace>
           <br />
           <span className="text-2xl">{'>'}</span>{' '}
-          <span className="text-sky-700">{' Email: '}</span>
-          {'AlexandruD@gmail.com'}
+          <span className="text-sky-700">
+            <Pace ms={40}>{' Email: '}</Pace>
+          </span>
+          <Pace ms={40}>{'AlexandruD@gmail.com'}</Pace>
           <br />
           <span className="text-2xl">{'>'}</span>{' '}
-          <span className="text-sky-700">{' Phone: '}</span>
-          <span className="text-md">{'+40 721 652 001'}</span>
+          <span className="text-sky-700">
+            <Pace ms={40}>{' Phone: '}</Pace>
+          </span>
+          <span className="text-md">
+            <Pace ms={40}>{'+40 721 652 001'}</Pace>
+          </span>
         </span>
       </WindupChildren>
     </div>
