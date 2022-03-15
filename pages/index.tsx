@@ -4,7 +4,7 @@ import Terminal from '../components/Terminal'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex h-screen items-center bg-[#010409]">
+    <div className="flex h-screen items-center justify-center bg-[#010409]">
       <Head>
         <title>AD Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
