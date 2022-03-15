@@ -35,7 +35,7 @@ function Footer() {
           </a>
         </Link> */}
       </div>
-      <span>{new Date().toDateString()}</span>
+      <span className="invisible sm:visible">{new Date().toDateString()}</span>
     </div>
   )
 }
