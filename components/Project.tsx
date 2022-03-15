@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Project = () => {
   return (
     <>
-      <div className="relative m-auto flex w-full flex-1 flex-col items-center justify-center overflow-y-scroll rounded-xl border border-slate-800 p-4 shadow-xl shadow-sky-900/40 scrollbar-hide">
+      <div className="relative m-auto flex w-full flex-1 flex-col items-center justify-center overflow-y-scroll border-b border-slate-800 p-4 scrollbar-hide">
         <div className="mt-4 flex flex-row flex-wrap justify-around space-y-8 p-4 sm:w-full md:space-y-0 lg:space-x-20">
           <div className="mt-2 items-center">
             <div className="space-y-2 text-white/80">
@@ -34,7 +34,7 @@ const Project = () => {
             </div>
           </div>
           {/* Right side */}
-          <div className="w-96 rounded-xl border border-slate-800 p-4 shadow-xl shadow-gray-800/40 lg:w-[450px]">
+          <div className="w-96 rounded-xl border border-slate-800 p-4 shadow-xl shadow-rose-900/10 lg:w-[450px]">
             <div className="flex flex-col items-center justify-between ">
               <div className="flex w-full flex-grow items-center justify-between pb-2">
                 <span className="text-amber-500">

@@ -34,7 +34,7 @@ function AboutMe() {
             <br />
           </span>
         </div>
-        <div className="my-auto pl-2">
+        <div className="my-auto pl-0 md:pl-2">
           <span className="text-white/50">/**</span>
           <div className="h-74 border-l border-gray-700/50 pl-4">
             <span className="text-center text-white/50">
@@ -105,7 +105,7 @@ function AboutMe() {
             <br />
           </span>
         </div>
-        <div className="my-auto pl-2">
+        <div className="my-auto pl-0 md:pl-2 ">
           <span className="text-white/50">/**</span>
           <div className="h-74 border-l border-gray-700/50 pl-4">
             <span className="text-center text-white/50">

@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectBox() {
   return (
-    <div className="w-96 rounded-xl border border-slate-800 p-4 shadow-xl shadow-pink-700/40 lg:w-[450px]">
+    <div className="w-96 rounded-xl border border-slate-800 p-4 shadow-lg shadow-slate-600/40 lg:w-[450px]">
       <div className="flex flex-col items-center justify-between ">
         <div className="flex w-full flex-grow items-center justify-between pb-2">
           <span className="text-amber-500">
